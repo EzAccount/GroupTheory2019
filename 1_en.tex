@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+\input{rules_en.tex}
+\begin{document}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	For an excellent grade you have to get minimum of 9 questions accepted  of each set, for a 'good' - at least 7, and for 'passed' - 5 questions.	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listok{1}{Group definitions, morphisms, permutations group}
+	\p
+	Show, that any permutation can be represented
+	\begin{itemize}
+	\item as a product of permutations of the form $(1,i)$;
+	\item as a product of permutations of the form $(i, i+1)$.
+\end{itemize}
+	\ep
+	\df
+	$\s(\pi)=(-1)^t$, where t is the amount of transpositions in $\pi$ 
+	\edf
+	\p
+	Show that  $\s$ doesn't depend on product decomposition. Formulate the definition of $\s$ based on amount of inversion in permutation. 
+	\ep
+	\p
+   	Show that $\s: S_n \to \Z_2$ is an homomorphism
+	\ep
+
+
+	\p 
+	Prove that the following are isomorphism:
+	\begin{align*}
+	S_3 &\simeq \text{[Equilateral triangle symmetry group]} \\
+	S_4 &\simeq \text{[Cube rotations group]}\\
+	S_4 \times S_2 &\simeq{\text{[Cube symmetry group]}}
+	\end{align*}
+	\ep
+	
+	\p Prove that the group of 6 element is either abelian or isomorphic to $S_3$
+	\ep
+	
+	\df Let $f$ be isomorphism $G \to G$. Then $f$ is called an automorphism of $G$. Group of some group's $G$ automorphisms is denoted as $\Aut G$.
+	\edf
+
+	\p Show, that
+	$\Aut(\Z_p) \simeq (\Z_p)$
+	\ep
+	
+	\p Show that any infinite group has a non-trivial subgroup.
+	\ep
+	
+	\p Show that any group of order 8 has the following form: $\{1,a, a^2, a^3, b, ab, a^2 b, a^3 b\}$. 
+	\ep
+	
+	\p 
+	Which is greater: number of elements of $S_n$ of odd order or of even order?
+	\ep
+
+	\p
+	Let  $G$ be a set with a following binary operation  $/$:
+	$$
+		G \times G \to G: (g,h) \mapsto g/h
+	$$
+	$$
+	\forall f,g,h \in G: (f/h)/(g/h) = f/g
+	$$
+	$$
+	\forall g,h \in G, \exists x \in G: g/x=h
+	$$
+   Show, that $G$ is group with respect to the following product: $gh = g/ ((h/h)/h)$.
+	\ep
+	
+\end{document}

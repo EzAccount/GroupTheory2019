@@ -1,0 +1,75 @@
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtext}
+\usepackage{mathtools}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{fancyhdr}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\epsilon}{\varepsilon}
+
+
+\addtolength{\topmargin}{-5mm}
+\addtolength{\textheight}{40mm}
+\addtolength{\oddsidemargin}{-25mm}
+\addtolength{\textwidth}{45mm}
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy} 
+
+
+\rhead{Симметрия и теория групп. Весна 2019}
+
+
+
+\def\rad{\operatorname{\sf rad}}
+\def\Alt{\operatorname{\sf Alt}}
+\def\Sym{\operatorname{\sf Sym}}
+\def\Id{\operatorname{\sf Id}}
+\def\rk{\operatorname{\sf rk}}
+\def\Hom{\operatorname{Hom}}
+\def\Vol{\operatorname{Vol}}
+\def\Lie{\operatorname{Lie}}
+\def\Map{\operatorname{Map}}
+\def\Aut{\operatorname{Aut}}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\Mat}{\operatorname{Mat}}
+\newcommand{\diam}{\operatorname{\sf diam}}
+
+\def\Z{{\mathbb Z}}
+\def\R{{\mathbb R}}
+\def\C{{\mathbb C}}
+\def\Q{{\mathbb Q}}
+\def\N{{\mathbb N}}
+
+\newtheoremstyle{Q}% <name>
+{3pt}% <Space above>
+{3pt}% <Space below>
+{}% <Body font>
+{}% <Indent amount>
+{\bfseries}% <Theorem head font>
+{:}% <Punctuation after theorem head>
+{.5em}% <Space after theorem headi>
+{}
+\theoremstyle{Q}
+
+\newtheorem{Problem}{Задача}[section]
+\newcommand{\listok}[2]{%
+	\setcounter{page}{1}
+	\lhead{ \scriptsize #2 }
+	\section*{#2}
+	\refstepcounter{section}
+	\setcounter{section}{#1}
+}
+\theoremstyle{generic}
+
+\newtheorem{Definition}{Определение}[section]
+\DeclareMathOperator{\s}{sign}
+\def\p{\begin{Problem}}
+\def\ep{\end{Problem}}
+\def\df{\begin{Definition}}
+\def\edf{\end{Definition}}
+
+
