@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\ad}{ad}
+\input{rules_en.tex}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\epsilon}{\varepsilon}
+
+\begin{document}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+For an excellent grade you have to get minimum of 9 questions accepted  of each set, for a 'good' - at least 7, and for 'passed' - 5 questions.	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listok{3}{Groups SU(2), SO(3)}
+	\p
+	Show:
+	$$ e^{xA}Be^{-xA} = \sum \frac{x^k}{x!} \ad_{A}^k (B),$$
+	where $\ad$ is defined as: $\ad_a(b) = [a,b]$. 
+	\ep
+	\p Show that center of  $SO(n)$ either trivial, or has order 2. What is the center of $SU(n)$?.
+	\ep
+
+
+	\p
+	Let us introduce metric on $SU(2)$:
+	$$ds^2 = \Tr  (dg\cdot dg^\dagger)$$
+	Show that it corresponds with standard sphere metric.
+	\ep
+	\p
+	Show that any element $O \in SO(3)$ has an eigenvector with eigenvalue $1$.
+	\ep
+	\p
+	Show that Lie Algebra $\mathfrak{so}(3)$  is a vector space of antisymmetric matrices. 
+	\ep
+	Let $H$ be the space of traceless hermitian 2x2 matrices:
+	$$H = \{ h \in \mathbb{C}^{2x2} | \Tr(h)=0, h=h^\dagger  \}$$
+	\p
+	Show  that Pauli matrices ($\sigma_i$)  forms a basis for $H$.
+	Show that $\forall U \in SU(2), \forall m \in H: \ U^\dagger m U = n \in H$
+	\ep
+	\p 
+	Let $m=m_i \sigma_i \in H$. Show that
+	$$\omega: SU(2) \to \Aut(\mathbb{R}^3)$$
+	$$U \mapsto \omega(U)$$
+	such that $n_i = \omega(U)_{ij} m_j$can be represented as $$\omega(U)_{ij} = \frac 1 2 \Tr(\sigma_i U^\dagger \sigma_j U) $$ Show that it is an homomorphism.
+	\ep
+	\p
+   Show that $\omega(U) \in SO(3)$.
+	\ep
+	\p 	
+	Show that $SO(3) \simeq SU(2) / Z_2$
+	\ep
+
+
+\end{document}
